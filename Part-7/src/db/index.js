@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
+//during accesing the data two things is important 
+//1 st is -> always use async
+// 2nd try and catch 
 
 
 const connectDB = async () => {
