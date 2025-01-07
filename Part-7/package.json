@@ -1,0 +1,26 @@
+{
+  "name": "part-7",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "vshalgotharwal",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon -r dotenv/config src/index.js"
+},
+
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3"
+  }
+}
