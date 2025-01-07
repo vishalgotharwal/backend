@@ -11,4 +11,7 @@ console.log("in router")
 router.route("/register").post(registerUser)
 
 
+
+
+
 export default router
